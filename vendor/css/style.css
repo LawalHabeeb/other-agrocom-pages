@@ -1,0 +1,58 @@
+a{
+	text-decoration: none;
+}
+
+.nav-link.active{
+	background-color: #226C0F;
+}
+
+.user-panel:nth-child(odd) {
+    margin-right: 30px;
+}
+
+.user-panel {
+    width: calc((100% - 30px) / 2);
+    float: left;
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+
+.profile-section-title {
+    font-weight: 700;
+    color: #0c0d0e;
+}
+
+.profile-section-title span {
+    font-weight: 400;
+    color: #6a737c;
+}
+
+.empty{
+	margin-bottom: 10px;
+}
+
+.user-panel-content{
+	margin-bottom: 10px;
+	padding-top: 5px;
+}
+
+.h32{
+	height: 32px;
+}
+
+.q-info{
+	color: #a9a9a9;
+	font-size: 15px;
+}
+
+.post-tag{
+    font-size: 12px;
+    background-color: #226C0F;
+    color: #f6f6f5;
+    margin: 2px;
+    height: 25px;
+    text-align: center;
+    padding: 0px 6px;
+    border-radius: 3px;
+}
