@@ -56,3 +56,69 @@ a{
     padding: 0px 6px;
     border-radius: 3px;
 }
+
+.equal{
+    width: calc(100% / 2);
+}
+
+.w-btn{
+    width: 150px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #DCF9D4;
+    border: none;
+}
+
+.reg-btn{
+    width: 315px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #226C0F;
+    border: none;
+}
+
+.s-btn{
+    width: 80px;
+    height: 40px;
+    background-color: #226C0F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.search-job{
+    width: calc((100% - 100px) / 2);
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid #226C0F;
+}
+
+.bb{
+    border-bottom: 1px solid #226C0F;
+}
+
+.bb2{
+    border-bottom: 1px solid grey;
+}
+
+.bt{
+    border-top: 1px solid #226C0F;    
+}
+
+.apply-btn{
+    width: 100px;
+    background-color: #226C0F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}
+
+.save-btn{
+    width: 70px;
+    background-color: #DCF9D4;
+    color: black;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}

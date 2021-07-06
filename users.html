@@ -13,7 +13,7 @@
 
 	<header></header>
 
-	<div class="container">
+	<div class="container-fluid px-5">
 		<div class="d-flex mt-3">
 			<ul class="nav nav-pills mb-4" id="pills-tab" role="tablist">
 				<li class="nav-item" role="presentation">
@@ -33,7 +33,7 @@
 				</li>
 				<li class="nav-item" role="presentation">
 					<button class="nav-link" id="pills-verify-tab" data-bs-toggle="pill" data-bs-target="#pills-verify" type="button" role="tab" aria-controls="pills-verify" aria-selected="false">
-						ID verification
+						Post Article
 					</button>
 				</li>
 			</ul>
@@ -291,6 +291,101 @@
 	                            <div class="empty">
 	                                you have not casted any votes.
 	                            </div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
+				<div class="d-flex mt-3 mb-5">
+					<div class="ml-auto me-4" style="width: 18rem">
+						<img src="images/spicy.jpg" class="card-img-top" alt="display picture" width="50" height="250" class="me-4" style="border-radius: 5px;">
+					</div>
+					<div class="d-block me-5" style="width: 50%">
+						<h3 class="mb-3">Lawal Habeeb</h3>
+						<p class="text-muted">(Major Work has not been set)</p>
+						<p class="text-muted">(Your about me is currently blank.) </p>
+						<a href="#pills-settings" style="text-decoration: underline;">Click here to edit</a>
+					</div>
+					<div class="mr-auto text-muted d-flex flex-column">
+						<i class="fas fa-map-marker-alt mb-3"> Akure, Ondo, Nigeria</i>
+						<i class="fa fa-envelope mb-3"> habeeblawal88@gmail.com</i>
+						<i class="fa fa-history mb-3"> Member for 2 months </i>
+						<i class="fa fa-eye mb-3"> <span>0</span> profile views </i>
+						<i class="far fa-clock mb-3"> Last seen <span>14 mins ago</span></i>
+					</div>
+				</div>
+				<div class="d-flex">
+					<div class="card mx-2" style="width: 33%; background-color: #DCF9D4; border-color: #226C0F;">
+						<div class="card-body">
+							<div class="text-center">
+								<i class="fas fa-archive" style="font-size: 45px;"></i>
+								<p class="card-title">Articles to Archive</p>
+								<p class="card-text" style="font-size: 15px;">Articles can be posted to archive to help users access alot of agricultural related books and important materials that can help in their respective field.</p>
+
+								<button class="btn-success">Post in Archive</button>
+							</div>
+						</div>
+					</div>
+					<div class="card mx-2" style="width: 33%; background-color: #DCF9D4; border-color: #226C0F;">
+						<div class="card-body">
+							<div class="text-center">
+								<i class="far fa-question-circle" style="font-size: 45px;"></i>
+								<p class="card-title">Questions</p>
+								<p class="card-text" style="font-size: 15px;">Question helps you get required solution from members which adequate knowledge of whatever problems you are facing whilst helping others learn also.</p>
+
+								<button class="btn-success">Ask Question</button>
+							</div>
+						</div>
+					</div>
+					<div class="card mx-2" style="width: 33%; background-color: #DCF9D4; border-color: #226C0F;">
+						<div class="card-body">
+							<div class="text-center">
+								<i class="fas fa-book" style="font-size: 45px;"></i>
+								<p class="card-title">Answers</p>
+								<p class="card-text" style="font-size: 15px;">Provide answers to question of other members, share the knowledge you have and who knows, you might even learn more.</p>
+
+								<button class="btn-success">See Questions</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="tab-pane fade" id="pills-settings" role="tabpanel" aria-labelledby="pills-settings-tab">
+				<div class="container">
+					<h2 class="bb mb-5 pb-2">Edit Your Profile</h2>
+					<div class="d-flex mb-3">
+						<div class="card me-5">
+							<img src="images/spicy.jpg" width="200" height="200">
+							<a class="card-text text-center" href="#"> Click here to change</a>
+						</div>
+						<div class="d-block" style="width: 25%">
+							<label class="form-label" for="full_name">Fullname</label>
+							<input type="text" class="form-control mb-2" id="full_name">
+							<label class="form-label" for="display_name">Display Name</label>
+							<input type="text" class="form-control mb-2" id="fullname">
+							<label class="form-label" for="fullname">Location</label>
+							<input type="text" class="form-control mb-2" id="fullname" placeholder="">
+						</div>
+					</div>
+					<h4 class="bb2 mb-3 pb-2">About me</h4>
+					<div class="mb-3">
+						<textarea rows="10" style="width: 50%;"></textarea>
+					</div>
+					<h3 class="bb2 mb-3 pb-2">Web Presence</h3>
+					<div class="mb-3">
+						<div class="d-flex" style="font-family: Roboto">
+							<div class="d-block me-3" style="width: 30%">
+								<label class="form-label" for="email_address"><strong>Email Address</strong></label>
+								<input type="email" class="form-control" id="email_address">
+							</div>
+							<div class="d-block me-3" style="width: 30%">
+								<label class="form-label" for="facebook"><strong>Facebook Username</strong></label>
+								<input type="text" class="form-control" id="facebook">
+							</div>
+							<div class="d-block me-3" style="width: 30%">
+								<label class="form-label" for="instagram"><strong>Instagram Username</strong></label>
+								<input type="text" class="form-control" id="instagram">
 							</div>
 						</div>
 					</div>
