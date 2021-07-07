@@ -57,6 +57,17 @@ a{
     border-radius: 3px;
 }
 
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #198754;
+}
+
+.nav-link{
+    color: #198754;
+}
+
+
 .equal{
     width: calc(100% / 2);
 }
