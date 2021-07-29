@@ -133,3 +133,36 @@ a{
     border: none;
     height: 40px;
 }
+
+/******************************
+          About Page
+******************************/
+
+.check{
+    width: 150px;
+    background-color: #226C0F;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+}
+
+.fill-part{
+    width: 400px;
+    background-color: #DCF9D4;
+    display: inline-block;
+    color: #000;
+    padding: 10px 45px;
+    border: 0.1px solid grey;
+    border-radius: 8px;
+}
+
+.login{
+	width: 150px;
+    height: 30px;
+	border-radius: 5px;
+    color: #fff;
+	margin: 10px 0px;
+	background-color: #226C0F;
+	border: none;
+}
